@@ -5,4 +5,4 @@ Requisitos: tener algún usuario/grupo en el servidor de aula que puede modifica
 
 Ejemplo para dar permiso a todos los profesores:
   sudo visudo
-    %teachers ALL=NOPASSWD:/sbin/iptables
+    "%teachers ALL=NOPASSWD:/sbin/iptables"
